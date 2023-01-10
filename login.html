@@ -5,16 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #fID {
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            border-style: solid;
+        }
+        input {
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            align-self: center;
+        }
+        input[type=submit] {
+            width: 30%;
+        }
+    </style>
 </head>
 <body>
-    <center>
-        <form>
+    <div id="fID">
+        <form action="main.html">
             <label>User ID</label>
             <input type="text" name="userID" id="userID">
-            <br><br>
             <label>Password</label>
             <input type="password" name="userPassword" id="userPassword">
-            <br><br>
             <input type="submit" value="Submit">
         </form>
         <div>
@@ -22,6 +39,6 @@
             <a href="signuppage.html">Sign up</a>
             </p>
         </div>
-    </center>
+    </div>
 </body>
 </html>
