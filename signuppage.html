@@ -5,48 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form action="main.html">
-        <label>UserID</label>
-        <input type="text" name="userID" id="userID">
-        <br>
-        <label?>Password</label>
-        <input type="password" name="password" id="password">
-        <br>
-        <label>Repeat password</label>
-        <input type="password" name="rpassword" id="rpassword">
-        <br>
-        <label>Name</label>
-        <input type="text" name="Name" id="Name">
-        <br>
-        <label>Address</label>
-        <input type="text" name="Address" id="Address">
-        <br>
-        <label>Country</label>
-        <input type="text" name="Country" id="Country">
-        <br>
-        <label>Zip-code</label>
-        <input type="text" name="zipcode" id="zipcode">
-        <br>
-        <label>E-Mail</label>
-        <input type="text" name="Email" id="Email">
-        <br>
-        <label for="sex">Sex:</label>
-
-        <select name="sex" id="sex">
-          <option value="Male">Male</option>
-          <option value="Female">Female</option>
-          <option value="Other">Other</option>
-        </select>
-        <br>
-        <label>Language</label>
-        <input type="text" name="Language" id="Language">
-        <br>
-        <label>About/Bio</label>
-        <input type="text" name="ABio" id="ABio">
-        <br>
-        <input type="submit" value="Sign Up">
-    </form>
+    <ul>
+        <li><img src="Logo.jpg" alt=""></li>
+    </ul>
+    <div id="fID">
+        <form action="main.html">
+            <label>UserID</label>
+            <input type="text" name="userID" id="userID">
+            <label>Password</label>
+            <input type="password" name="password" id="password">
+            <label>Repeat password</label>
+            <input type="password" name="rpassword" id="rpassword">
+            <label>Name</label>
+            <input type="text" name="Name" id="Name">
+            <label>Address</label>
+            <input type="text" name="Address" id="Address">
+            <label>Country</label>
+            <input type="text" name="Country" id="Country">
+            <label>Zip-code</label>
+            <input type="text" name="zipcode" id="zipcode">
+            <label>E-Mail</label>
+            <input type="text" name="Email" id="Email">
+            <label for="sex">Sex:</label>
+            <select name="sex" id="sex" style="margin-bottom: 10px;">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+            <label>Language</label>
+            <input type="text" name="Language" id="Language">
+            <label>About/Bio</label>
+            <input type="text" name="ABio" id="ABio">
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
 </body>
 </html>
